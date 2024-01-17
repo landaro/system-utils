@@ -1,0 +1,4 @@
+Depends on system packages:
+- rofi
+- python-rofi
+- libnotify
