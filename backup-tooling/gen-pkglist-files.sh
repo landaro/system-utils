@@ -2,10 +2,10 @@
 
 # This script generates two files listing installed packages (regualr and from AUR) in the homedir of the user, intended for backup/recovery purposes
 
-echo "compililng list of explicitly installed regular packages into ~/pkglist.txt"
+echo "exporting list of explicitly installed regular packages into ~/pkglist.txt"
 pacman -Qqen > ~/pkglist.txt
 
-echo "compililng list of explicitly installed AUR packages into ~/pkglist_aur.txt"
+echo "exporting list of explicitly installed AUR packages into ~/pkglist_aur.txt"
 pacman -Qqem > ~/pkglist_aur.txt
 
 # RECOVERY
